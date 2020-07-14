@@ -4,9 +4,9 @@ $lorem = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm
 
 $badword = $_GET["badword"];
 
-$bad_word = 'ut';
+
 //funzione per modificare una stringa
-$newName = str_replace($bad_word, $badword, $lorem);
+$newName = str_replace( $badword,'***', $lorem);
 //funzione per conoscere la lunghezza di una stringa
 $lorem_length = strlen($lorem);
 
